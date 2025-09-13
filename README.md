@@ -37,16 +37,21 @@ Una app que muestra el clima actual de una ciudad usando una API externa.
   - Empezar con el codigo
 - **Avances**:
   - ✅ README.md se actualizo con nueva informacion (nombre, Características, descripcion, etc) - Responsable: Rodrigo - Commit: Se ha cambiado la informacion de README.md ya que la idea del proyecto fue cambiada.
-- **En progreso**:
-  - 🔄 [Tarea en progreso] - Responsable: [Nombre] - Commit: [Hash o descripción del commit]
-- **Pendiente**:
-  - ⏳ [Tarea pendiente] - Responsable: [Nombre]
-- **Notas**:
-  - [Descripción de problemas, soluciones o decisiones tomadas]
 
-### Clase [N]
-- **Fecha**: [DD/MM/YYYY]
-- [Repetir estructura anterior]
+
+### Clase 3
+- **Fecha**: [10/09/2025]
+- **Objetivos**:
+  - Establecer las rutas del proyecto
+  - Definir que hara cada Integrantes
+  - Empezar con el codigo
+- **Avances**:
+  - ✅ README.md se actualizo con nueva informacion (nombre, Características, descripcion, etc) - Responsable: Rodrigo - Commit: Se ha cambiado la informacion de README.md.
+  - ✅ Se creo el layout completo del proyecto, con los archivos que necesitamos
+ 
+- **Pendiente**:
+  - ⏳ Implementacion del codigo - Responsable: [Todos]
+
 
 ## Contacto
 ### Información del Grupo
