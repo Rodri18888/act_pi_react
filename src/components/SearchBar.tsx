@@ -24,7 +24,7 @@ focus:ring-blue-500"
  />
  <button
  type="submit"
- className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600
+ className="bg-blue-500 text-black px-7 py-1 rounded-lg hover:bg-blue-600
 transition-colors"
  >
  Buscar

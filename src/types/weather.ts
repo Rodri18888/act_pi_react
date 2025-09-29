@@ -7,38 +7,47 @@ export interface WeatherData {
         pressure: number;
         temp_min: number;
         temp_max: number;
-    }
-
-weather: {
-    id: number;
-    main: string;
-    description: string;
-    icon: string;
-}[];
-wind: {
-    speed: number;
-    deg: number;
-};
-
-}
-
-export interface ForecastData {
-    dt: number;
-    main: {
-        temp: number;
-        humidity: number;
     };
-    weather:{
+    weather: {
         id: number;
         main: string;
         description: string;
         icon: string;
     }[];
-    wind:{
+    wind: {
         speed: number;
+        deg: number;
+    };
+    dt: number; // ✅ Agregar esta línea
+    sys: {
+        country: string;
+    };
+}
+
+export interface ForecastData {
+    list: ForecastItem[]; // ✅ Agregar esta línea
+    city: {
+        name: string;
+        country: string;
+    };
+}
+
+export interface ForecastItem {
+    dt: number;
+    main: {
+        temp: number;
+        humidity: number;
+        pressure: number;
+    };
+    weather: {
+        id: number;
+        main: string;
+        description: string;
+        icon: string;
+    }[];
+    wind: {
+        speed: number;
+        deg: number;
     };
     dt_txt: string;
-
-
-
 }
