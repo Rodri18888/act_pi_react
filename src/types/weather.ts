@@ -18,14 +18,14 @@ export interface WeatherData {
         speed: number;
         deg: number;
     };
-    dt: number; // ✅ Agregar esta línea
+    dt: number; 
     sys: {
         country: string;
     };
 }
 
 export interface ForecastData {
-    list: ForecastItem[]; // ✅ Agregar esta línea
+    list: ForecastItem[]; 
     city: {
         name: string;
         country: string;
